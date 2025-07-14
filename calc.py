@@ -8,19 +8,11 @@ def sub(a, b):
     return a - b
 
 
-
-
-
-
-
-
-
-
-
-
-
+def modulo(a, b):
+    return a % b
 
 
 if __name__ == "__main__":
     print(add(10, 20))
     print(sub(10, 20))
+    print(modulo(10, 20))
